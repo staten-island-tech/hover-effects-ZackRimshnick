@@ -1,5 +1,14 @@
-@import "_variables.scss";
-@import "_btn.scss";
+@import "_1-Jedi.scss";
+@import "_2-Lightsabers.scss";
+
+html,
+body {
+  background-color: white;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .container {
   width: 80vw;
