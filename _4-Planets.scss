@@ -1,0 +1,67 @@
+.planets {
+  font-family: "Star Jedi", arial;
+  color: white;
+  font-size: 3rem;
+  width: 80rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.hoth {
+  background-image: url("./media/hoth.jpg");
+  filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-right: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: all 0.4s ease;
+}
+.hoth:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  border-radius: 1rem;
+}
+
+.tatooine {
+  background-image: url("./media/tatooine.jpg");
+  filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: all 0.4s ease;
+}
+.tatooine:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  border-radius: 1rem;
+}
+
+.mustafar {
+  background-image: url("./media/mustafar.jpg");
+  filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-left: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: all 0.4s ease;
+}
+.mustafar:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  border-radius: 1rem;
+}

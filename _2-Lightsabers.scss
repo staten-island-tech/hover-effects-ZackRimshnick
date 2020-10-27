@@ -1,6 +1,38 @@
 .lightsaber-family {
-    width: 80rem;
-    height: 80rem;
+  width: 60rem;
+  height: 40rem;
+}
+.lightsaber-images {
+  margin: 3rem;
+  position: relative;
+}
+.lightsaber-photo {
+  position: absolute;
+  height: 20rem;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(146, 222, 241, 0.952);
+  outline-offset: 1rem;
+  transition: all 0.3s;
+}
+.lightsaber-photo:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 1rem 1rem rgba(146, 222, 241, 0.952);
+  outline: 1rem solid color(blue);
+  z-index: 2;
+}
+.lightsaber-images:hover .lightsaber-photo:not(:hover) {
+  transform: scale(0.8);
+  opacity: 0.3;
 }
 
-
+.luke {
+  top: 15rem;
+  left: 15%;
+}
+.anakin {
+  top: 2rem;
+  right: 0;
+}
+.windu {
+  top: -2rem;
+  left: 0;
+}

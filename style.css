@@ -8,12 +8,192 @@
   -webkit-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
   letter-spacing: 0.55rem;
+  margin-bottom: 5rem;
 }
 
 .text-effect:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-text-stroke: 0.15rem rgba(146, 222, 241, 0.952);
+}
+
+.lightsaber-family {
+  width: 60rem;
+  height: 40rem;
+}
+
+.lightsaber-images {
+  margin: 3rem;
+  position: relative;
+}
+
+.lightsaber-photo {
+  position: absolute;
+  height: 20rem;
+  -webkit-box-shadow: 0 0 0.5rem 0.5rem rgba(146, 222, 241, 0.952);
+          box-shadow: 0 0 0.5rem 0.5rem rgba(146, 222, 241, 0.952);
+  outline-offset: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.lightsaber-photo:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-box-shadow: 0 0 1rem 1rem rgba(146, 222, 241, 0.952);
+          box-shadow: 0 0 1rem 1rem rgba(146, 222, 241, 0.952);
+  outline: 1rem solid color(blue);
+  z-index: 2;
+}
+
+.lightsaber-images:hover .lightsaber-photo:not(:hover) {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0.3;
+}
+
+.luke {
+  top: 15rem;
+  left: 15%;
+}
+
+.anakin {
+  top: 2rem;
+  right: 0;
+}
+
+.windu {
+  top: -2rem;
+  left: 0;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: lowercase;
+  text-decoration: none;
+  -webkit-text-stroke: 0.15rem rgba(219, 30, 30, 0.699);
+  padding: 1rem 4rem;
+  padding-bottom: 1.5rem;
+  background-color: black;
+  top: 6rem;
+  margin: 1rem auto;
+  margin-bottom: 10rem;
+  font-size: 6rem;
+  border-radius: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  font-family: "Star Jedi", arial;
+}
+
+.btn-sith {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 0px 10px 0.5rem color(black), 0.6;
+          box-shadow: 0px 10px 0.5rem color(black), 0.6;
+  -webkit-box-shadow: 0 0 0.5rem 0.5rem rgba(219, 30, 30, 0.699);
+          box-shadow: 0 0 0.5rem 0.5rem rgba(219, 30, 30, 0.699);
+}
+
+.btn:active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.planets {
+  font-family: "Star Jedi", arial;
+  color: white;
+  font-size: 3rem;
+  width: 80rem;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.hoth {
+  background-image: url("./media/hoth.jpg");
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-right: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.hoth:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 1rem;
+}
+
+.tatooine {
+  background-image: url("./media/tatooine.jpg");
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.tatooine:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 1rem;
+}
+
+.mustafar {
+  background-image: url("./media/mustafar.jpg");
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+  background-position: center;
+  -webkit-text-stroke: 0.1rem black;
+  margin-left: 5rem;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.mustafar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  border-radius: 1rem;
 }
 
 html,
