@@ -5,9 +5,9 @@
         "style.scss",
         "_1-Jedi.scss",
         "_2-Lightsabers.scss",
-        "_3-Sith.scss",
-        "_4-Planets.scss",
-        "_5-Clones.scss"
+        "_4-Sith.scss",
+        "_5-Planets.scss",
+        "_3-Clones.scss"
     ],
     "names": [],
     "file": "style.css"
